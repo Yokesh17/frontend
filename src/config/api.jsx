@@ -3,7 +3,7 @@ import axios from "axios";
 
 // Base Axios instance
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || "https://jwt-authentication-6s7j.onrender.com", // fallback if env var not set
+  baseURL: import.meta.env.VITE_API_BASE_URL || "https://yokesh17.pythonanywhere.com/", // fallback if env var not set
   headers: {
     "Content-Type": "application/json",
     Accept: "application/json",
