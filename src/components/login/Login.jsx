@@ -7,7 +7,7 @@ import {notification} from "../Notification/Notify";
 import { useNavigate } from "react-router-dom"; // Import for navigation
 
 export default function App() {
-  const [form, setForm] = useState({ username: "yokesh17", password: "yokesh2002" });
+  const [form, setForm] = useState({ username: "yokesh17", password: "Yokesh2002@" });
   const [isLoading, setIsLoading] = useState(false);
   const navigate = useNavigate(); // Initialize navigate
 
